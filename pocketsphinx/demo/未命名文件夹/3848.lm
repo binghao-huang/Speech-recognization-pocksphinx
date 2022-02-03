@@ -1,0 +1,53 @@
+Language model created by QuickLM on Tue Oct 13 02:12:42 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 7 sentences and 9 words
+
+\data\
+ngram 1=9
+ngram 2=14
+ngram 3=7
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.6232 低速 -0.2218
+-1.6232 停下 -0.2218
+-1.6232 右转 -0.2218
+-1.6232 后退 -0.2218
+-1.6232 小白 -0.2218
+-1.6232 左转 -0.2218
+-1.6232 高速 -0.2218
+
+\2-grams:
+-1.1461 <s> 低速 0.0000
+-1.1461 <s> 停下 0.0000
+-1.1461 <s> 右转 0.0000
+-1.1461 <s> 后退 0.0000
+-1.1461 <s> 小白 0.0000
+-1.1461 <s> 左转 0.0000
+-1.1461 <s> 高速 0.0000
+-0.3010 低速 </s> -0.3010
+-0.3010 停下 </s> -0.3010
+-0.3010 右转 </s> -0.3010
+-0.3010 后退 </s> -0.3010
+-0.3010 小白 </s> -0.3010
+-0.3010 左转 </s> -0.3010
+-0.3010 高速 </s> -0.3010
+
+\3-grams:
+-0.3010 <s> 低速 </s>
+-0.3010 <s> 停下 </s>
+-0.3010 <s> 右转 </s>
+-0.3010 <s> 后退 </s>
+-0.3010 <s> 小白 </s>
+-0.3010 <s> 左转 </s>
+-0.3010 <s> 高速 </s>
+
+\end\

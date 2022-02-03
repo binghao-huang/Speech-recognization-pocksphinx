@@ -1,0 +1,57 @@
+Language model created by QuickLM on Sun Aug  4 03:27:32 EDT 2019
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 8 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=16
+ngram 3=8
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.6812 停下 -0.2218
+-1.6812 前进 -0.2218
+-1.6812 右转 -0.2218
+-1.6812 后退 -0.2218
+-1.6812 小猪 -0.2218
+-1.6812 小猴 -0.2218
+-1.6812 小白 -0.2218
+-1.6812 左转 -0.2218
+
+\2-grams:
+-1.2041 <s> 停下 0.0000
+-1.2041 <s> 前进 0.0000
+-1.2041 <s> 右转 0.0000
+-1.2041 <s> 后退 0.0000
+-1.2041 <s> 小猪 0.0000
+-1.2041 <s> 小猴 0.0000
+-1.2041 <s> 小白 0.0000
+-1.2041 <s> 左转 0.0000
+-0.3010 停下 </s> -0.3010
+-0.3010 前进 </s> -0.3010
+-0.3010 右转 </s> -0.3010
+-0.3010 后退 </s> -0.3010
+-0.3010 小猪 </s> -0.3010
+-0.3010 小猴 </s> -0.3010
+-0.3010 小白 </s> -0.3010
+-0.3010 左转 </s> -0.3010
+
+\3-grams:
+-0.3010 <s> 停下 </s>
+-0.3010 <s> 前进 </s>
+-0.3010 <s> 右转 </s>
+-0.3010 <s> 后退 </s>
+-0.3010 <s> 小猪 </s>
+-0.3010 <s> 小猴 </s>
+-0.3010 <s> 小白 </s>
+-0.3010 <s> 左转 </s>
+
+\end\

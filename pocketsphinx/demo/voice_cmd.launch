@@ -1,0 +1,8 @@
+<launch>
+  <node name="recognizer" pkg="pocketsphinx" type="recognizer.py" output="screen">
+    <param name="lm" value="$(find pocketsphinx)/demo/bulldog.lm"/>
+    <param name="dict" value="$(find pocketsphinx)/demo/bulldog.dic"/>
+    <param name="hmm" value="$(find pocketsphinx)/demo/tdt_sc_8k"/>    
+  </node> 
+  <node name="wake" pkg="pocketsphinx" type="wake.py"/>
+</launch>
